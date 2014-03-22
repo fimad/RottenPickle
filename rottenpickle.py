@@ -10,7 +10,7 @@ import pickle
 import sys
 
 if len(sys.argv) != 3:
-  print "usage: pickledick.py definitions.py value.py"
+  print "usage: rottenpickle.py definitions.py value.py"
   print "\nDefine any classes and functions that will be used in definitions.py."
   print "value.py must contain a single expression that will be the result of the unpickling."
   print "\nNote: You will not have access to the unpickling codes global or local variables."
